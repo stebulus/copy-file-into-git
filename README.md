@@ -21,7 +21,7 @@ To test, create a throwaway git repo with a branch:
 
 Then "copy a file into git":
 
-    dist/build/giths/giths some-branch README.md ~/whatever/some/place/a-file
+    dist/build/copy-file-into-git/copy-file-into-git some-branch README.md ~/whatever/some/place/a-file
 
 The git history in `~/whatever` will now show a commit
 on the branch `some-branch` adding the file `some/place/a-file`.
